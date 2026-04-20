@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | ZeroGravity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --text: #121926; --muted: #4B5563; --accent: #baff26; --accent-strong: #aef70c; --shadow: 0 24px 80px rgba(103, 119, 145, 0.18); --radius-pill: 999px; --container: 1540px; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { min-height: 100vh; padding: 6px 0 0; font-family: "Inter", sans-serif; color: var(--text); background: radial-gradient(circle at top center, rgba(255, 255, 255, 0.98), rgba(238, 241, 245, 0.88) 38%, rgba(229, 234, 240, 0.94) 100%); }
+        .shell { width: min(var(--container), calc(100% - 12px)); margin: 0 auto; padding: 16px 0 0; border-radius: 22px; background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.54)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82), 0 18px 48px rgba(126, 140, 159, 0.12); }
+        .topbar { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 0 28px 16px 36px; }
+        .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+        .brand-mark { width: 46px; height: 34px; border-radius: 14px; overflow: hidden; background: #fff; box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12); }
+        .brand-mark img { width: 100%; height: 100%; object-fit: cover; }
+        .brand-name { font-size: 24px; font-weight: 800; letter-spacing: -0.04em; }
+        .nav { display: flex; align-items: center; gap: 30px; }
+        .nav a { font-size: 15px; font-weight: 500; color: #192230; text-decoration: none; }
+        .content-area { padding: 100px 50px; text-align: center; }
+        .content-area h1 { font-size: 60px; font-weight: 800; margin-bottom: 20px; }
+        .job-card { background: #fff; padding: 40px; border-radius: 30px; margin-bottom: 20px; text-align: left; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow); }
+        .btn { background: var(--accent); padding: 12px 24px; border-radius: 50px; font-weight: 700; text-decoration: none; color: #000; }
+        footer { padding: 50px; text-align: center; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <header class="topbar">
+            <a class="brand" href="indexnew.html">
+                <span class="brand-mark"><img src="logo.webp"></span>
+                <span class="brand-name">ZeroGravity</span>
+            </a>
+            <nav class="nav">
+                <a href="indexnew.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main class="content-area">
+            <h1>Join Our Team</h1>
+            <p style="color: var(--muted); margin-bottom: 60px;">We're looking for passionate car care enthusiasts.</p>
+            <div class="job-card">
+                <div><h3>Senior Detailer</h3><p>Full-time • On-site</p></div>
+                <a href="#" class="btn">Apply Now</a>
+            </div>
+        </main>
+        <footer><p>&copy; 2024 ZeroGravity. All Rights Reserved.</p></footer>
+    </div>
+</body>
+</html>
